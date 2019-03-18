@@ -8,6 +8,7 @@ header {
 
 .article {
     background-color: blue;
+    flex: 2;
 }
 
 .aside {
@@ -20,8 +21,4 @@ header {
 
 footer {
     background-color: green;
-}
-
-.article {
-    flex: 2;
 }
