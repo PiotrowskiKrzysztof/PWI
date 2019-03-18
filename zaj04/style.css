@@ -1,0 +1,63 @@
+header {
+    background-color: aqua;
+    padding: 2%;
+}
+
+#nav {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding: 2%;
+}
+
+.article {
+    padding: 2%;
+    flex:3;
+}
+
+.aside {
+    flex: 1;
+    padding: 2%;
+}
+.main {
+    display: flex;
+    height: 80%;
+}
+
+footer {
+    background-color: green;
+    padding: 2%;
+}
+
+p, body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+a {
+    width: 33%;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:tomato;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    background-color:orange;
+}
