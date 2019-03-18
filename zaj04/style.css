@@ -1,0 +1,27 @@
+header {
+    background-color: aqua;
+}
+
+#nav {
+    background-color: red
+}
+
+.article {
+    background-color: blue;
+}
+
+.aside {
+    background-color: yellow;
+    flex: 1;
+}
+.main {
+    display: flex;
+}
+
+footer {
+    background-color: green;
+}
+
+.article {
+    flex: 2;
+}
