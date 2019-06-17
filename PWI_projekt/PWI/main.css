@@ -1,0 +1,289 @@
+body
+{
+	background-color: rgb(12, 7, 41);
+	color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+		font-size: 17px;
+}
+
+.error{
+  color: red;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Oferta
+{
+	text-align: center;
+}
+
+.navbar
+{
+  min-height: 57px;
+}
+
+.row .mt5 .nav .flex-column .nav-pills .col-3{
+  position: relative;
+}
+
+.bg-navbar {
+	background-color: #0F1C46;
+}
+
+.carousel-item {
+	height: 100vh;
+	min-height: 350px;
+	background: no-repeat center center scroll;
+	background-size: cover;
+  }
+
+.btn-outline-success {
+	color: #FFCB08;
+	border-color: #FFCB08;
+}
+
+.btn-outline-success:active {
+	color: #FFCB08;
+	border-color: #FFCB08;
+}
+
+.btn-outline-success:hover {
+	background-color: #FFCB08;
+	border-color: #FFCB08;
+}
+
+.btn-outline-success a {
+	text-decoration: none;
+	color: white;
+}
+
+
+.carousel-caption {
+	top: 40%;
+	bottom: auto;
+}
+
+.Oferta {
+	display: inline-block;
+}
+
+.nav-tabs {
+	border-style: none;
+}
+
+.tab-content {
+	color: #0F1C46 !important;
+}
+.tab-item a {
+	color: white;
+}
+
+.tab-item a:active {
+	color: #FFCB08;
+}
+
+.tab-item a:hover {
+	text-decoration: none;
+}
+
+.btn-accept {
+	background-color: transparent;
+	color: white;
+	border-color: #FFCB08;
+}
+
+.btn-accept:hover {
+	background-color: #FFCB08;
+}
+
+.X:hover {
+	color: #FFCB08;
+}
+
+.btn-register {
+	background-color: #FFCB08 !important;
+	color: white !important;
+}
+
+.btn-register:hover {
+	background-color: rgb(226, 177, 0) !important;
+	color: white !important;
+}
+
+.form-signin a {
+	color: #0F1C46;
+	text-decoration: none;
+}
+
+.form-signin a:hover {
+	color: #FFCB08;
+	text-decoration: none;
+}
+
+.bg-footer {
+	background-color: #0F1C46;
+	color: #FFCB08;
+}
+
+.gradient-tlo {
+	background-image: linear-gradient(to bottom right ,#0F1C46, rgba(255, 201, 8, 0.3));
+	background-size: cover;
+	height: 100vh;
+}
+
+.header-video {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.header-video video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.header-video .container {
+  position: relative;
+  z-index: 2;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  .header-video {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  .header-video video {
+    display: none;
+  }
+}
+
+section.pricing {
+  color: #0F1C46;
+}
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+	transition: all 0.2s;
+	background-color: #FFCB08 !important;
+	border-color: #FFCB08 !important;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1 !important;
+  background-color: #000;
+}
+
+.promotion {
+  color: #0F1C46;
+}
+
+.promotion .btn {
+  color: white;
+  background-color: #FFCB08;
+  border-color: #FFCB08;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #FFCB08;
+}
+
+.flex-column a {
+  color: white;
+}
+
+.btn-link {
+  font-weight: 400;
+  color: #0F1C46;
+  background-color: transparent;
+}
+
+.btn-myaccount {
+  background-color: transparent;
+  color: white;
+  border-color: #FFCB08;
+}
+
+.btn-myaccount:hover{
+  background-color: #FFCB08;
+  color: white;
+
+}
